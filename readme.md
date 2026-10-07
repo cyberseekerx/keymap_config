@@ -117,7 +117,7 @@ After this is done, you should be able to use the normal RGB keycodes, but you'l
 ########################################################################################################################
 ####
 Note : the led are turned off in the config
-you can enable it with typing yes or no in the following path in this repo keymaps/default/rules.mk
+you can enable it with typing yes or no in the following path in this repo "keymaps/default/rules.mk"
 
 cd qmk
 
