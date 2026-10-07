@@ -114,6 +114,11 @@ And in your `config.h` file, add the following:
 After this is done, you should be able to use the normal RGB keycodes, but you'll see the RGB Matrix effects in use, giving a much better experience. 
 
 
+########################################################################################################################
+####
+Note : the led are turned off in the config
+you can enable it with typing yes or no in the following path in this repo keymaps/default/rules.mk
+
 cd qmk
 
 qmk compile -kb crkbd/rev4_1/standard -km default
