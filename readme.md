@@ -115,6 +115,7 @@ After this is done, you should be able to use the normal RGB keycodes, but you'l
 
 
 cd qmk
+
 qmk compile -kb crkbd/rev4_1/standard -km default
 
 double cilck on reset to unlock boot 
