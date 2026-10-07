@@ -112,3 +112,19 @@ And in your `config.h` file, add the following:
 ```
 
 After this is done, you should be able to use the normal RGB keycodes, but you'll see the RGB Matrix effects in use, giving a much better experience. 
+
+
+cd qmk
+qmk compile -kb crkbd/rev4_1/standard -km default
+
+double cilck on reset to unlock boot 
+lsblk # to get the mount point of the keyboard in boot unlocked 
+
+sudo mount /dev/<name of the mount> /mnt
+eg :- sudo mount /dev/sdc1 /mnt
+
+sudo cp crkbd_rev4_1_standard_default.uf2 /mnt/
+
+sudo sync
+#qmk
+ 
